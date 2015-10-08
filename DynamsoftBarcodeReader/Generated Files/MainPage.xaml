@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="DynamsoftBarcodeReader.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DynamsoftBarcodeReader"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid x:ConnectionId='1' x:Name="RootGrid" Margin="12,12,12,12" VerticalAlignment="Top">
+            <ScrollViewer Grid.Row="1" VerticalScrollMode="Auto" VerticalScrollBarVisibility="Auto" VerticalAlignment="Top">
+                <StackPanel>
+                    <Grid x:ConnectionId='2' x:Name="Image" Margin="0,0,0,5" VerticalAlignment="Top">
+                        <Image x:ConnectionId='5' x:Name="PreviewImage" HorizontalAlignment="Left" VerticalAlignment="Top" MaxWidth="600"/>
+                    </Grid>
+                    <StackPanel Orientation="Horizontal" Margin="0, 0, 0, 5" VerticalAlignment="Top">
+                        <Button x:ConnectionId='3' x:Name="button" Margin="0, 0, 5, 0"                      VerticalAlignment="Top">
+                            <Viewbox MaxHeight="40" MaxWidth="40">
+                                <SymbolIcon Symbol="OpenFile"/>
+                            </Viewbox>
+                        </Button>
+                        <TextBlock x:ConnectionId='4' x:Name="BarcodeResults" Margin="0,0,0,10" TextWrapping="Wrap" Text="Results:" Height="600" Width="300" VerticalAlignment="Stretch" HorizontalAlignment="Left" />
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>
+
