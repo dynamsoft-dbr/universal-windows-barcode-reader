@@ -1,7 +1,7 @@
 # Universal Windows Barcode Reader
 The sample demonstrates how to create a universal barcode reader on Windows 10 with [Dynamsoft Barcode C/C++ SDK][1] (DBR).
 
-![image](http://www.codepool.biz/wp-content/uploads/2015/10/uwp_run.png)
+![image](http://www.codepool.biz/wp-content/uploads/2015/10/uwp_run_dark.png)
 
 Prerequisites
 ------------
