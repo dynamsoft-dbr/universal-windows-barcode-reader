@@ -25,10 +25,11 @@ References
 
 Blog
 ----
-Coming soon...
+[How to Create a Universal Barcode Reader on Windows 10 with C/C++ Legacy Code][6]
 
 [1]:http://www.dynamsoft.com/Products/barcode-cpp-api-for-windows.aspx
 [2]:http://www.dynamsoft.com/Downloads/Dynamic-Barcode-Reader-Download.aspx
 [3]:https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx
 [4]:https://msdn.microsoft.com/en-us/library/dn182761.aspx
 [5]:https://github.com/Microsoft/Windows-universal-samples
+[6]:http://www.codepool.biz/windows10-universal-barcode-reader.html
